@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <hr />
+
+    <form action="./index.html">
+      <h2>Hesap bilgileriniz</h2>
+      <label for="username">Kullanici adi</label>
+      <input
+        type="text"
+        id="username"
+        placeholder="Kullanici adi giriniz"
+        required
+        minlength="4"
+        maxlength="12"
+      /><br />
+      <label for="email">Eposta</label>
+      <input type="email" id="email" placeholder="Eposta giriniz" required />
+      <br />
+      <label for="parola">Parola</label>
+      <input
+        type="password"
+        id="parola"
+        placeholder="Parola giriniz"
+        required
+      />
+      <h2>Kisisel bilgileriniz</h2>
+      <label for="username">Adiniz</label>
+      <input
+        type="text"
+        id="username"
+        placeholder="Kullanici adi giriniz"
+        required
+        minlength="4"
+        maxlength="12"
+      /><br />
+      <label for="email">Eposta</label>
+      <input type="email" id="email" placeholder="Eposta giriniz" required />
+      <br />
+      <label for="">Sehir</label>
+      <select name="" id="">
+        <option value="" selected disabled>Seciniz</option>
+        <option value="baki">Baki</option>
+        <option value="gence">Gence</option>
+        <option value="seki">Seki</option>
+      </select>
+      <br>
+      <label for="">Cinsiyyet</label>
+      <input type="radio" id="erkek" name="gender" checked>
+      <label for="erkek">Erkek</label>
+      <input type="radio" id="kadin" name="gender">
+      <label for="kadin">Kadin</label>
+      <br>
+      <label for="">Hobbi</label>
+      <input type="checkbox" id="sinema" checked>
+      <label for="sinema">Sinema</label>
+      <input type="checkbox" id="gezmek">
+      <label for="gezmek">Gezmek</label>
+      <br>
+
+      <input type="submit" value="kaydet" />
+    </form>
+  </body>
+</html>
